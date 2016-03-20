@@ -1,22 +1,65 @@
-#navbar {
-	background: url("header.jpg");
+@fontface {
+	font-family: Quest;
+	src: url("Quest.ttf");
+}
+
+body, html, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("background.jpg") center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	margin: 0px auto;
-	border: 1px solid black;
-	text-align: center;
-}
-
-#main {
-	font-size: 1.25em;
-	margin-top: 70px;
-	border: 1px solid black;
 }
 
 * {
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#menu_container {
+	white-space: nowrap;
+}
+
+.main_nav {
+	text-align: center;
+	background-color: black;
+}
+
+.main_nav a:link, a:visited {
+	display: inline-block;
+	margin-left: -4px;
+	padding: 10px 25px;
+	font-size: 10px;
+	font-family: Quest;
+	text-decoration: none;
+	transition: background-color 0.5s ease;
+	background-color: black;
+	color: white;
+}
+
+.main_nav a:hover, a:active {
+	transition: background-color 0.5s ease;
+	background-color: rgba(35, 35, 35, 0.6);
+}
+
+.portrait {
+	text-align: center;
+}
+
+.circle {
+	margin: 50px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.main_title {
+	text-align: center;
+	font-family: Quest;
+	color: white;
 }
