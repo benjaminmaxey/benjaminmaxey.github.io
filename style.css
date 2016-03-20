@@ -1,5 +1,7 @@
-#main {
-	max-width: 600px;
-	margin: 0 auto;
+#navbar {
+	width: 100%;
+	position: fixed;
+	top: 0px;
 	border: 1px solid black;
+	text-align: center;
 }
