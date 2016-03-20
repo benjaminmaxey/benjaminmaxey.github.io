@@ -1,4 +1,5 @@
 #navbar {
+	max-width: 500px;
 	height: 70px;
 	position: fixed;
 	margin: 0px auto;
