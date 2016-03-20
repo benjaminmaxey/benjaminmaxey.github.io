@@ -35,7 +35,7 @@ body {
 	display: inline-block;
 	margin-left: -4px;
 	padding: 10px 25px;
-	font-size: 10px;
+	font-size: 75%;
 	font-family: Quest;
 	text-decoration: none;
 	transition: background-color 0.5s ease;
@@ -48,7 +48,7 @@ body {
 	background-color: rgba(35, 35, 35, 0.6);
 }
 
-.portrait {
+#portrait {
 	text-align: center;
 }
 
@@ -58,7 +58,7 @@ body {
 	border: 2px solid white;
 }
 
-.main_title {
+#main_title {
 	text-align: center;
 	font-family: Quest;
 	color: white;
